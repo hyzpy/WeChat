@@ -1,0 +1,47 @@
+/* ----------------Reset Css--------------------- */
+
+.uploader-demo{
+    margin: auto;
+    width: 90%;
+}
+
+.uploader-list{
+    text-align: left;
+    padding-top: 10px;
+}
+span.cancel {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: blue;
+    cursor: pointer;
+}
+.webuploader-container{
+    margin-top: 10px;
+    text-align: left;
+}
+div.file-item {
+    position: relative;
+    display: inline-block;
+    margin-right: 5px;
+}
+.error {
+    background: #f43838;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 28px;
+    line-height: 28px;
+    width: 100%;
+    z-index: 100;
+}
+.success {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    z-index: 0;
+    background: url(../img/success.png) no-repeat right bottom;
+}

@@ -1,0 +1,127 @@
+body{
+	font-family: 'Adobe 黑体 Std';
+}
+p,ul{
+	margin: 0;
+}
+
+.am-text-over{
+	word-wrap: normal;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+// 我的待办
+.am-search-eara{
+		position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	width: 100%;
+	padding-top: 5px;
+	height: 40px;
+	background-color: #e2e2e2;
+}
+.am-form-field{
+	padding: 0.5em;
+	margin: auto;
+	width: 96%;
+	text-align: center;
+	font-size: 1.3rem;
+	&:focus,&:hover{
+		border-color: #cccccc;
+		box-shadow: none;
+		color: #555555;
+
+	}
+}
+.am-round-auto{
+	border-radius: 5px;
+}
+.am-icon-search{
+	color: #aaa5a5;
+	font-size: 1.3rem;
+}
+.am-list-news-bd{
+	margin-top: 40px;
+}
+.am-list{
+	>li{
+		border:none;
+		padding: 9px 9px 1px 9px;
+		&:nth-of-type(even){
+			background: transparent;
+		}
+	}
+	.am-list-item-dated{
+		a.am-list-item-hd{
+			padding:0 0 9px 0;
+			font-size: 1.5rem;
+			border-bottom: 1px #e2e2e2 solid;
+		}
+	}
+} 
+.am-list-item-hd{
+	p{
+		line-height: 20px;
+	}
+	p.am-taskCode{
+		color: #4a4a4a;
+		font-weight: bold;
+		height: 25px;
+		line-height: 25px;
+		.am-code{
+			float: left;
+		}
+		.am-type{
+			float: right;
+			line-height: 25px;
+			i{
+				margin-left: 3px;
+				font-size: 1.8rem;
+				color: #8e8e8e;
+			}
+		}
+	}
+}
+.am-taskCode{
+	color: #4a4a4a;
+	font-weight: bold;
+	height: 25px;
+	line-height: 25px;
+	.am-code{
+		float: left;
+	}
+	.am-type{
+		float: right;
+		line-height: 25px;
+		i{
+			margin-left: 5px;
+		}
+	}
+}
+.am-taskInfo,
+.am-taskName{
+	color: #8e8e8e;
+}
+.am-taskName{
+	font-size: 1rem;
+	font-weight: bold;
+	width: 98%;
+}
+.am-taskInfo{
+	font-size: 1.3rem;
+	.am-user {
+		float: right;
+	}
+}
+// 我的待办-查询条件
+.am-search-input{
+	padding: 10px;
+	border-bottom: 1px #e2e2e2 solid;
+}
+
+.am-text-input{
+	display: initial;
+	width: 70%;
+}
